@@ -27,7 +27,7 @@
 - Built for **backtesting**, **algorithmic trading** and **quantitative finance** workflows
 - **Weekly refresh** — [getdata.finance](https://getdata.finance) every **Saturday, 8am UTC+0**; GitHub `12h` sample updated in sync
 
-> **Sample on GitHub** · `AMZN_12h.csv` (142 rows, `2026-02-09` -> `2026-09-01`, 8.52 KB). **Full archive on [getdata.finance](https://getdata.finance/datasets/amzn)** — **3,113** `12h` rows (full `1m`: 637,283), **11 timeframes**, `2011-05-09` -> `2026-09-01`.
+> **Sample on GitHub** · `AMZN_12h.csv` (77 rows, `2026-05-13` -> `2026-09-01`, 5.28 KB). **Full archive on [getdata.finance](https://getdata.finance/datasets/amzn)** — **3,113** `12h` rows (full `1m`: 636,515), **11 timeframes**, `2011-05-09` -> `2026-09-01`.
 
 ## Download sample
 
@@ -45,9 +45,9 @@ Full archive & live chart on getdata.finance: **[https://getdata.finance/dataset
 |---|--:|---|
 | Instrument | Amazon · US stocks | Amazon · US stocks |
 | Timeframes | `12h` (sample) | **11** — 1m · 3m · 5m · 15m · 30m · 1H · 4H · 12H · 1D · 3D · 1W |
-| 12h rows | 142 | **3,113** |
-| Size | 8.52 KB | full ZIP on [getdata.finance](https://getdata.finance/datasets/amzn) |
-| Period | `2026-02-09` -> `2026-09-01` | `2011-05-09` -> `2026-09-01` |
+| 12h rows | 77 | **3,113** |
+| Size | 5.28 KB | full ZIP on [getdata.finance](https://getdata.finance/datasets/amzn) |
+| Period | `2026-05-13` -> `2026-09-01` | `2011-05-09` -> `2026-09-01` |
 | File | `AMZN_12h.csv` | ZIP on [getdata.finance](https://getdata.finance/datasets/amzn) |
 | Coverage report | — | [AMZN coverage](https://getdata.finance/coverage/amzn) |
 | Updates | Weekly (Saturday, 8am UTC+0) — GitHub sample | Weekly (Saturday, 8am UTC+0) — all timeframes |
@@ -75,21 +75,21 @@ First and latest rows from the GitHub sample **`AMZN_12h.csv`**:
 
 | datetime | open | high | low | close | volume |
 | --- | --- | --- | --- | --- | --- |
-| 2026-02-09T12:00:00+00:00 | 210.1 | 212.66 | 203.21 | 208.46 | 74343 |
-| 2026-02-10T12:00:00+00:00 | 208.46 | 212.52 | 206.28 | 206.89 | 116472 |
-| 2026-02-11T12:00:00+00:00 | 206.89 | 208.37 | 202.37 | 204.08 | 122202 |
-| 2026-02-12T12:00:00+00:00 | 204.08 | 204.08 | 197.43 | 199.44 | 136944 |
-| 2026-02-13T12:00:00+00:00 | 199.44 | 201.06 | 197.15 | 198.66 | 96374 |
+| 2026-05-13T12:00:00+00:00 | 265.7 | 270.61 | -2508.1205 | 270.03 | 66128.91628 |
+| 2026-05-14T12:00:00+00:00 | 270.03 | 270.63 | 266.48 | 267.16 | 74527 |
+| 2026-05-15T12:00:00+00:00 | 267.16 | 267.16 | -2510.4805 | 264.2 | 60916.35763 |
+| 2026-05-18T12:00:00+00:00 | 264.2 | 268.67 | 262.4 | 264.72 | 88510 |
+| 2026-05-19T12:00:00+00:00 | 264.72 | 264.72 | 255.06 | 259.28 | 72335 |
 
 **Last rows**
 
 | datetime | open | high | low | close | volume |
 | --- | --- | --- | --- | --- | --- |
-| 2026-08-26T12:00:00+00:00 | 260.97 | 261.64 | 258.21 | 259.13 | 22858 |
-| 2026-08-27T12:00:00+00:00 | 260.22 | 260.22 | 254.89 | 255.98 | 22575 |
-| 2026-08-28T12:00:00+00:00 | 255.98 | 267.39 | 255.98 | 266.3 | 42174 |
-| 2026-08-31T12:00:00+00:00 | 266.3 | 266.3 | 256.99 | 259.96 | 36497 |
-| 2026-09-01T12:00:00+00:00 | 259.96 | 259.96 | 251.9 | 254.82 | 35523 |
+| 2026-08-26T12:00:00+00:00 | 261.02 | 261.69 | 258.11 | 260.36 | 36553 |
+| 2026-08-27T12:00:00+00:00 | 260.36 | 260.36 | 254.55 | 255.64 | 33648 |
+| 2026-08-28T12:00:00+00:00 | 255.64 | 267.05 | 255.64 | 265.96 | 42174 |
+| 2026-08-31T12:00:00+00:00 | 265.96 | 265.96 | 256.65 | 259.62 | 36497 |
+| 2026-09-01T12:00:00+00:00 | 259.62 | 259.62 | 251.56 | 254.48 | 35523 |
 
 ## Schema
 
